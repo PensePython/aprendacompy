@@ -1,0 +1,3 @@
+Este arquivo existe apenas para que o diretório _static possa ser incluído 
+no repositório, facilitando a organização do trabalho.
+
