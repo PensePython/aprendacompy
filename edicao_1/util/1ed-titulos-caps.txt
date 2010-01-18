@@ -1,0 +1,26 @@
+apresentacao	Apresentação
+prefacio	Prefácio
+capitulo_01	Capítulo 1: O caminho do programa
+capitulo_02	Capítulo 2: Variáveis, expressões e comandos
+capitulo_03	Capítulo 3: Funções
+capitulo_04	Capítulo 4: Condicionais e recursão
+capitulo_05	Capítulo 5: Funções frutíferas
+capitulo_06	Capítulo 6: Iteração
+capitulo_07	Capítulo 7: Strings
+capitulo_08	Capítulo 8: Listas
+capitulo_09	Capítulo 9: Tuplas
+capitulo_10	Capítulo 10: Dicionários
+capitulo_11	Capítulo 11: Arquivos e exceções
+capitulo_12	Capítulo 12: Classes e objetos
+capitulo_13	Capítulo 13: Classes e funções
+capitulo_14	Capítulo 14: Classes e métodos
+capitulo_15	Capítulo 15: Conjuntos de objetos
+capitulo_16	Capitulo 16: Herança
+capitulo_17	Capítulo 17: Listas encadeadas
+capitulo_18	Capítulo 18: Pilhas
+capitulo_19	Capítulo 19: Filas
+capitulo_20	Capítulo 20: Árvores
+apendice_a	Apêndice A: Depuração
+apendice_b	Apêndice B: Criando um novo tipo de dado
+apendice_c	Apêndice C: Leituras recomendadas
+apendice_d	Apêndice D: GNU Free Documentation License
