@@ -121,12 +121,7 @@ Python tem 29 palavras reservadas::
 
 Pode ser útil ter essa lista à mão [#]_. Se o interpretador acusar erro sobre um de seus nomes de variável e você não souber o porquê, veja se o nome está na lista.
 
-.. [#] N.T.: esta lista pode ser obtida através do próprio interpretador Python, com apenas dois comandos:
-
-   :: 
-  
-        import keyword
-        print keyword.kwlist
+.. [#] N.T.: esta lista pode ser obtida através do próprio interpretador Python, com apenas dois comandos: ``import keyword; print keyword.kwlist``
   
 
 --------------------------------
