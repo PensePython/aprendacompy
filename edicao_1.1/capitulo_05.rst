@@ -269,7 +269,7 @@ O valor retornado (1) é multiplicado por ``n``, que é 1, e o resultado é reto
 
 O valor retornado (1) é multiplicado por ``n``, que é 2, e o resultado é retornado. 
 
-O valor retornado (2) é multiplicado por ``n``, que é 1, e o resultado, 6, se torna o valor de retorno da chamada de função que iniciou todo o processo.
+O valor retornado (2) é multiplicado por ``n``, que é 3, e o resultado, 6, se torna o valor de retorno da chamada de função que iniciou todo o processo.
 
 Eis o diagrama de pilha para esta sequência de chamadas de função:
 
