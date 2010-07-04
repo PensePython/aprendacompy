@@ -233,7 +233,7 @@ A ``contagemRegressiva`` que tem ``n=1`` retorna.
 
 A ``contagemRegressiva`` que tem ``n=2`` retorna.
 
-A ``contagemRegressiva`` que tem ``n=1`` retorna.
+A ``contagemRegressiva`` que tem ``n=3`` retorna.
 
 E então estamos de volta em ``__main__`` (que viagem!). Assim, a saída completa se parece com::
 
