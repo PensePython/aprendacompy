@@ -68,11 +68,11 @@ Para imprimir objetos ``Carta`` de uma maneira que as pessoas possam facilmente 
     listaDePosicoes = ["narf", "Ás", "2", "3", "4", "5", "6", "7",
                        "8", "9", "10", "Valete", "Rainha", "Rei"]
 
-  # método init omitido
+    # método init omitido
 
-  def __str__(self):
-    return (self.listaDePosicoes[self.posicao] + " de " +
-            self.ListaDeNaipes[self.naipe])
+    def __str__(self):
+      return (self.listaDePosicoes[self.posicao] + " de " +
+              self.ListaDeNaipes[self.naipe])
 
 Um atributo de classe é definido fora de qualquer método, e ele pode ser acessado por quaisquer métodos da classe.
 
