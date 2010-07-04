@@ -96,14 +96,14 @@ Atributos de classe como ``listaDeNaipes`` são compartilhados por todos os obje
 
 A desvantagem é que se nós modificarmos um atributo de classe, isso afetará cada instância da classe. Por exemplo, se nós decidirmos que "Valete de Ouros" deveria realmente se chamar "Valete de Baleias Rodopiantes", nós poderíamos fazer isso::
 
-  >>> carta1.listaDeNaipes = "Baleias Rodopiantes"
+  >>> carta1.listaDeNaipes[1] = "Baleias Rodopiantes"
   >>> print carta1
-  3 de Baleias Rodopiantes
+  Valete de Baleias Rodopiantes
 
 O problema é que *todos* os Ouros se tornam Baleias Rodopiantes::
 
   >>> print carta2
-  3 de Baleias Rodopiantes
+  Valete de Baleias Rodopiantes
 
 Normalmente, não é uma boa idéia modificar atributos de classe.
 
