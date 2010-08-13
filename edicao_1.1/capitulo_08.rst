@@ -145,18 +145,18 @@ Podemos utilizar também o ``not`` em combinação com o ``in`` para testar se u
 8.5 Listas e laços ``for``
 -----------------------------------------------------
 
-O laço ``for`` que vimos na Seção 7.3 também funciona com listas. A sintaxe generalizada de um laço ``for`` é::
+O laço ``for`` que vimos na Seção 7.3 também funciona com listas. A sintaxe generalizada de um laço ``for`` é: ::
 
-	for VARIÁVEL in LISTA:
+	for VARIAVEL in LISTA:
 		CORPO
 
 Esta declaração é equivalente a::
 
 	>>> i = 0
-	    while i < len(LIST):
-		VARIABLE = LIST[i]
-		XXX BODY
-	    i = i + 1
+	>>> while i < len(LISTA):
+	>>>	  VARIAVEL = LISTA[i]
+	>>>	  XXX BODY
+	>>>   i = i + 1
 
 O laço ``for`` é mais conciso porque podemos eliminar a variável do laço, ``i``. Aqui está o laço anterior escrito com um`laço ``for``::
 
@@ -168,8 +168,8 @@ Quase se lê como Português: "For (para cada) cavaleiro in (na lista de) cavale
 Qualquer expressão de lista pode ser utilizada num laço ``for``::
 
 	>>> for numero in range(20):
-			if numero % 2 == 0:
-				print numero
+		if numero % 2 == 0:
+			print numero
 
 	>>> for fruta in ["banana", "abacaxi", "laranja"]:
 		print "Eu gosto de comer " + fruta + "s!"
