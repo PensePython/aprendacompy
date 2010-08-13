@@ -311,20 +311,20 @@ Nós substituímos o valor 6 pelo parâmetro altura. Se chamarmos ``imprimeTabMu
 
 Isto é bom, exceto que nós provavelmente quereríamos que a tabela fosse quadrada - com o mesmo número de linhas e colunas. Para fazer isso, adicionamos outro parâmetro a ``imprimeMultiplos`` para especificar quantas colunas a tabela deveria ter.
 
-Só para confundir, chamamos este novo parâmetro de ``altura``, demonstrando que diferentes funções podem ter parâmetros com o mesmo nome (como acontece com as variáveis locais). Aqui está o programa completo::
+Só para confundir, chamamos este novo parâmetro de ``altura``, demonstrando que diferentes funções podem ter parâmetros com o mesmo nome (como acontece com as variáveis locais). Aqui está o programa completo: ::
 
   def imprimeMultiplos(n, altura):
     i = 1
-    while i  <= altura:
+    while i <= altura:
       print n*i, 't',
       i = i + 1
-    print
+      print
 
   def imprimeTabMult(altura):
     i = 1
     while i <= altura:
-    imprimeMultiplos(i, altura)
-    i = i + 1
+      imprimeMultiplos(i, altura)
+      i = i + 1
 
 Note que quando adicionamos um novo parâmetro, temos que mudar a primeira linha da função (o cabeçalho da função), e nós também temos que mudar o lugar de onde a função é chamada em ``imprimeTabMult``.
 
