@@ -175,7 +175,7 @@ As variáveis temporárias ``raio`` e ``resultado`` são úteis para o desenvolv
 
     return area(distancia(xc, yc, xp, yp))
 
-    Como exercício, escreva uma função ``coeficienteAngular(x1, y1, x2, y2)`` que retorne a coeficiente angular de uma linha dados os pontos (x1, y1) e (x2, y2). Depois use esta função em uma função chamada ``cortaY(x1, y1, x2, y2)`` que retorne a interseção da linha com o eixo y, dados os pontos (x1, y1) e (x2, y2).
+Como exercício, escreva uma função ``coeficienteAngular(x1, y1, x2, y2)`` que retorne a coeficiente angular de uma linha dados os pontos (x1, y1) e (x2, y2). Depois use esta função em uma função chamada ``cortaY(x1, y1, x2, y2)`` que retorne a interseção da linha com o eixo y, dados os pontos (x1, y1) e (x2, y2).
 
 ---------------------------------------
 5.4 Funções booleanas
