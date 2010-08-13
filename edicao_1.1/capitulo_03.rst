@@ -271,7 +271,7 @@ Esta função recebe um único argumento e o atribui a um parâmetro chamado ``b
 
 A função ``imprimeDobrado`` funciona para qualquer tipo que possa ser impresso::
 
-  >>> imprimeDoobrado('Spam')
+  >>> imprimeDobrado('Spam')
   Spam Spam
   >>> imprimeDobrado(5)
   5 5
@@ -307,7 +307,7 @@ Repare numa coisa importante: o nome da variável que passamos como um argumento
 
 Quando você cria uma **variável local** dentro de uma função, ela só existe dentro da função e você não pode usá-la fora de lá. Por exemplo::
 
-  def concatDupla(parte1, parte2)
+  def concatDupla(parte1, parte2):
     concat = parte1 + parte2
     imprimeDobrado(concat)
 
