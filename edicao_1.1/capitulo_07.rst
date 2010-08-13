@@ -166,13 +166,13 @@ Uma maneira comum de resolver este problema é converter as strings para um form
 
 Em vez de produzir a saída ``Elô, Mundo!``, este código produz o erro em tempo de execução (*runtime error*): ``TypeError: object doesn't support item assignment`` (*ErroDeTipo: objeto não dá suporte à atribuição de item.*)
 
-Strings são **imutáveis**, o que significa que você não pode mudar uma string que já existe. O melhor que você pode fazer é criar uma nova string que seja uma variação da original::
+Strings são **imutáveis**, o que significa que você não pode mudar uma string que já existe. O melhor que você pode fazer é criar uma nova string que seja uma variação da original: ::
 
   saudacao = "Alô, mundo!"
-  novaSaudacao = 'E' + saudação[1:]
+  novaSaudacao = 'E' + saudacao[1:]
   print novaSaudacao
 
-A solução aqui é concatenar uma nova primeira letra com uma fatia de ``saudação``. Esta operação não tem nenhum efeito sobre a string original.
+A solução aqui é concatenar uma nova primeira letra com uma fatia de ``saudacao``. Esta operação não tem nenhum efeito sobre a string original.
 
 ---------------------------------------
 7.7 Uma função ``find`` (*encontrar*)
@@ -202,13 +202,13 @@ Este padrão de computação é às vezes chamado de travessia "eureka", porque 
 7.8 Iterando e contando
 ------------------------
 
-O programa seguinte conta o número e vezes que a letra a aparece em uma string::
+O programa seguinte conta o número e vezes que a letra a aparece em uma string: ::
 
   fruta = "banana"
   contador = 0
   for letra in fruta:
-      if letra == 'a'
-          contador = contador + 1
+    if letra == 'a':
+      contador = contador + 1
   print contador
 
 Este programa demonstra um outro padrão de computação chamado de **contador**. A variável ``contador`` é inicializada em ``0`` e então incrementada cada vez que um ``a`` é encontrado. (**Incrementar** é o mesmo que aumentar em um; é o oposto de **decrementar**, e não tem relação com excremento, que é um substantivo.) Quando se sai do loop, ``contador`` guarda o resultado - o número total de ``a``'s.
