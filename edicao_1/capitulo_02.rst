@@ -236,7 +236,10 @@ Quando mais de um operador aparece em uma expressão, a ordem de avaliação dep
 
 De maneira geral, você não pode executar operações matemáticas em strings, ainda que as strings se pareçam com números. O que segue é inválido (assumindo que ``mensagem`` é do tipo ``string``)::
 
-  mensagem-1   "Alô"/123   mensagem*"Alô"   "15"+2
+  mensagem-1
+  "Alô"/123
+  mensagem*"Alô"
+  "15"+2
 
 Interessante é o operador ``+``, que funciona com strings, embora ele não faça exatamente o que você poderia esperar. Para strings, o operador ``+`` representa **concatenação**, que significa juntar os dois operandos ligando-os pelos extremos. Por exemplo::
 
