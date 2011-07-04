@@ -104,7 +104,7 @@ Bem, quase. Para algumas operações, os computadores usam tabelas de valores pa
 Embora uma tabela de logaritmos não seja mais tão útil quanto já foi um dia, ela ainda dá um bom exemplo de iteração. O seguinte programa gera uma seqüência de valores na coluna da esquerda e seus respectivos logaritmos na coluna da direita::
 
   import math
-  
+
   x = 1.0
   while x < 10.0:
     print x, '\t', math.log(x)
@@ -318,7 +318,7 @@ Só para confundir, chamamos este novo parâmetro de ``altura``, demonstrando qu
   def imprimeMultiplos(n, altura):
     i = 1
     while i <= altura:
-      print n*i, 't',
+      print n*i, '\t',
       i = i + 1
       print
 
