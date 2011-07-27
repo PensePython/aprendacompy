@@ -206,7 +206,7 @@ Quando você escreve uma solução genérica para uma classe de problemas, ao co
 
 Primeiramente, considere alguma coisa que não seja um algorítmo. Quando você aprendeu a multiplicar números de um dígito, você provavelmente memorizou a tabela de multiplicação. Como resultado, você memorizou 100 soluções específicas. Esse tipo de conhecimento não é algorítmo. 
 
-Mas se você é "preguiçoso", você provavelmente trapaceou por ter aprendido alguns truques. Por exemplo, para encontrar o produto de n e 9, você pode escrever n-1 como o primeiro dígito e 10-n como o segundo dígito. Este truque é um solução genérica para multiplicar qualquer número de um dígito por 9. Isso é um algoritmo! 
+Mas se você é "preguiçoso", você provavelmente trapaceou por ter aprendido alguns truques. Por exemplo, para encontrar o produto de n e 9, você pode escrever n-1 como o primeiro dígito e 10-n como o segundo dígito. Esse truque é uma solução genérica para multiplicar qualquer número de um dígito por 9. Isso é um algoritmo! 
 
 De modo parecido, as técnicas que você aprendeu para adicionar //com transporte//, //subtraction with borrowing//, e divisão longa são todas algorítmos. Uma das características dos algorítmos é que eles não requerem nenhuma inteligência para  serem executados ( carry out ). Eles são processos mecânicos  no qual cada passo segue o último de acordo com um conjunto simples de regras. 
 
