@@ -64,7 +64,7 @@ Para fazer de ``exibeHora`` um método, tudo o que temos a fazer é mover a defi
         str(time.minutos) + ?:? + \
         str(time.segundos)
 
-Agora podemos chamar ``exibeHora`` usando a natação de ponto::
+Agora podemos chamar ``exibeHora`` usando a notação de ponto::
 
   >>> horaCorrente.exibeHora()
 
