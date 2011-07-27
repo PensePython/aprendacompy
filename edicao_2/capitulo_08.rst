@@ -394,7 +394,7 @@ Uma vez que o objeto é compartilhado pelos dois quadros, o desenhamos entre ele
 
 Se a função modifica um parâmetro da lista, a função chamadora vê a mudança. Por exemplo, ``removeCabeca`` remove o primeiro elemento da lista::
 
-    >>> def removecabeca(lista):
+    >>> def removeCabeca(lista):
         del lista[0]
 
 Aqui está a maneira como ela é utilizada::
