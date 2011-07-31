@@ -243,9 +243,9 @@ Copiar um objeto é freqüentemente uma alternativa ao 'alias'. O modulo 'copy' 
   >>> p1.y = 4
   >>> p2 = copy.copy(p1)
   >>> p1 == p2
-  0
+  False
   >>> mesmoPonto(p1, p2)
-  1
+  True
 
 Uma vez que importamos o modulo 'copy', podemos usar o método 'copy' para criar um outro 'Ponto'. p1 e p2 não representam o mesmo ponto, mas eles contem os mesmo dados.
 
