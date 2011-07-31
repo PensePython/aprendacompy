@@ -146,11 +146,11 @@ Neste capítulo, demonstramos uma aproximação para o desenvolvimento de progra
 
 Embora esta aproximação possa ser eficaz, ela pode conduzir para código que é desnecessariamente complicado desde que trata de muitos casos especiais e não confiáveis desde que é difícil saber se você encontrou todos os erros.
 
-An alternative is planned development, in which high-level insight into the problem can make the programming much easier. In this case, the insight is that a Time object is really a three-digit number in base 60! The second component is the "ones column," the minute component is the "sixties column," and the hourcomponent is the "thirty-six hundreds column." 
+Uma alternativa é o desenvolvimento planejado, onde uma visão de alto nível sobre o problema pode facilitar a programação. Neste caso, a percepção é que um objeto Time é realmente um número de três dígitos na base 60! O componente segundos é a "coluna dos uns", o componente minutos é a "coluna dos sessenta", e o componente horas é a "coluna dos três mil e seiscentos". 
 
-When we wrote addTime and increment, we were effectively doing addition in base 60, which is why we had to carry from one column to the next. 
+Quando escrevemos `somaHorario` e `incrementar`, estávamos na verdade somando em base 60; Por isso é que tivemos que levar a sobra de uma coluna para o próxima. 
 
-This observation suggests another approach to the whole problem     we can convert a Time object into a single number and take advantage of the fact that the computer knows how to do arithmetic with numbers. The following function converts a Timeobject into an integer::
+Essa observação acima nos leva a sugerir uma outra abordagem para o problema como um todo. Podemos converter um objeto de tempo em um único número e tirar vantagem do fato de que o computador sabe como fazer conta com os números. A seguinte função converte um objeto Time em um inteiro:
 
 
   def converterParaSegundos(t): 
