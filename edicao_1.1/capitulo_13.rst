@@ -144,7 +144,7 @@ Em geral, recomendamos que você escreva funções puras sempre que for necessá
 
 Neste capítulo, demonstramos uma aproximação para o desenvolvimento de programas que chamamos de desenvolvimento prototipado. Em cada caso, escrevemos um rascunho tosco (ou prototipo) que executou os cálculos básicos e então, o testamos em uns poucos casos, corrigindo então, as falhas que fomos encontrando. 
 
-Embora esta aproximação possa ser eficaz, ela pode conduzir para código que é desnecessariamente complicado desde que trata de muitos casos especiais e unreliable desde que é difícil saber se você encontrou todos os erros.
+Embora esta aproximação possa ser eficaz, ela pode conduzir para código que é desnecessariamente complicado desde que trata de muitos casos especiais e não confiáveis desde que é difícil saber se você encontrou todos os erros.
 
 An alternative is planned development, in which high-level insight into the problem can make the programming much easier. In this case, the insight is that a Time object is really a three-digit number in base 60! The second component is the "ones column," the minute component is the "sixties column," and the hourcomponent is the "thirty-six hundreds column." 
 
