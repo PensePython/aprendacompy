@@ -1,9 +1,5 @@
-.. Aprenda Computação com Python documentation master file, created by sphinx-quickstart on Mon Apr  6 01:12:19 2009.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Aprenda Computação com Python's documentation!
-=========================================================
+Aprenda Computação com Python
+=============================
 
 Contents:
 
